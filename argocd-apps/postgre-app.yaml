@@ -8,9 +8,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/BigKAA/youtube'
-    path: Utils/k3s-dev/manifests/psql/
-    targetRevision: master
+    repoURL: 'https://github.com/YuraShabunyaWork/k3s'
+    path: util/manifest/psql
+    targetRevision: main
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: psql
