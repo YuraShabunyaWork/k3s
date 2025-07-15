@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/YuraShabunyaWork/k3s'
-    path: util/manifest/psql
+    path: util/manifest/psql/
     targetRevision: main
   destination:
     server: 'https://kubernetes.default.svc'
